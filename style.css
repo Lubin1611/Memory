@@ -2,12 +2,13 @@ h1 {
     text-align: center;
 }
 
-/**#ligne1 {
+#ligne1 {
 
     display: flex;
     justify-content: space-evenly;
 
 }
+
 
 #ligne2 {
 
@@ -21,7 +22,7 @@ h1 {
     display: flex;
     justify-content: space-evenly;
 }
-**/
+
 
 #carte1 {
 

@@ -24,6 +24,8 @@ function change2 () {
 
     }
 
+
+
 function verifCarte () {
 
     if (nback.id == repCartes[0] && nback2.id == repCartes[1]) {
