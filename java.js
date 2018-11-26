@@ -6,27 +6,34 @@ var nback = document.getElementById("dosDecarte1");
 
 function change1 () {
 
-   nback.id = "carte1"
+   nback.id = repCartes[0];
 
-    if (nback2.id == "carte2") {
-
-        alert("trouvé");
-
-    }
+   verifCarte();
 
 }
+
+
 
 var nback2 = document.getElementById("dosDecarte2");
 
 function change2 () {
 
-   nback2.id = "carte2";
+   nback2.id = repCartes[1];
 
-    if (nback.id == "carte1") {
+   verifCarte();
+
+    }
+
+function verifCarte () {
+
+    if (nback.id == repCartes[0] && nback2.id == repCartes[1]) {
 
         alert("trouvé");
 
-       }
+        nback.style.display = "none";
+        nback2.style.display = "none";
 
     }
+
+}
 
