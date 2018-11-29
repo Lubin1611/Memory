@@ -1,5 +1,39 @@
+@font-face {
+    font-family: enchanted;
+    src: url("Enchanted Land.otf");
+}
+
+@font-face {
+    font-family: digi;
+    src: url("DS-DIGI.TTF");
+    font-size: 3vw;
+}
+
 h1 {
+    margin-top: 0;
     text-align: center;
+    font-family: enchanted;
+    font-size: 6vw;
+
+}
+
+#seconds {
+
+    margin-left: 1%;
+
+}
+
+img {
+    cursor: pointer;
+}
+
+#timer {
+
+    font-family: digi;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
 }
 
 #ligne1 {
@@ -8,7 +42,6 @@ h1 {
     justify-content: space-evenly;
 
 }
-
 
 #ligne2 {
 
@@ -24,48 +57,30 @@ h1 {
 }
 
 
-#carte1 {
+#container_scores {
 
-    width: 90px;
-    height: 120px;
-    background-image: url("carte2.png");
-}
-
-#carte2 {
-
-    width: 90px;
-    height: 120px;
-    background-image: url("carte3.png");
-}
-
-#dosDecarte1 {
-
-    width: 90px;
-    height: 120px;
-    background-image: url("dosdecarte.jpg");
-    background-size: auto;
+    display: none;
 
 }
 
-#dosDecarte2 {
-
-    width: 90px;
-    height: 120px;
-    background-image: url("dosdecarte.jpg");
+#contenuScore {
+    display: flex;
+    justify-content: center;
+    margin-top: 25%;
 }
 
-#dosDecarte3 {
-
-    width: 90px;
-    height: 120px;
-    background-image: url("dosdecarte.jpg");
-
+#newPartie {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
 }
 
-#dosDecarte4 {
-
-    width: 90px;
-    height: 120px;
-    background-image: url("dosdecarte.jpg");
+#placerRec {
+    margin-left: 46%;
+    margin-top: 5%;
 }
 
+#boutonTab {
+    margin-left: 46%;
+    margin-top: 5%;
+}
