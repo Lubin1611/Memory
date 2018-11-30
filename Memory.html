@@ -12,10 +12,12 @@
 <h1>Mon site de memory</h1>
 
     <div id = timer>
-        <span id = "minutes"></span>
-        <span id = "seconds"></span>
+        <span id = "minutes">1 :</span>
+        <span id = "seconds">00</span>
+        <button onclick="jouer()" id = "commencer">Jouer</button>
     </div>
 
+<div id = plateau_jeu>
 
     <div id = "ligne1">
 
@@ -42,15 +44,15 @@
         <div><img src="dosdecarte.jpg" height="125" width="90"/></div>
         <div><img src="dosdecarte.jpg" height="125" width="90"/></div>
 
+        </div>
     </div>
-
-    </div>
+</div>
 
 <div id = container_scores>
 
-
+    <span id = "titre">Scores</span>
     <span id = "contenuScore"></span>
-    <span id = "newPartie"><button onclick="raZ()">Recommencer une partie</button></span>
+    <span id = "newPartie"><button onclick="nouvellePartie()">Recommencer une partie</button></span>
 
 
 

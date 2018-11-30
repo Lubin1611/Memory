@@ -17,6 +17,13 @@ h1 {
 
 }
 
+#plateau_jeu {
+
+    display: none;
+
+}
+
+
 #seconds {
 
     margin-left: 1%;
@@ -63,10 +70,19 @@ img {
 
 }
 
+#titre {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 7vw;
+    font-family: enchanted;
+}
+
+
 #contenuScore {
     display: flex;
     justify-content: center;
-    margin-top: 25%;
+    margin-top: 10%;
 }
 
 #newPartie {
@@ -77,7 +93,7 @@ img {
 
 #placerRec {
     margin-left: 46%;
-    margin-top: 5%;
+    margin-top: 15%;
 }
 
 #boutonTab {
